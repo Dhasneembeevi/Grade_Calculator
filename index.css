@@ -1,0 +1,92 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    max-width: 800px;
+  }
+  
+  .marks {
+    width: 50%;
+    margin-right: 20px;
+  }
+  
+  .data {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .data label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .display {
+    width: 50%;
+  }
+  
+  .display > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #0077cc;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #005ea6;
+  }
+  
+  #total,
+  #average,
+  #grade {
+    font-weight: normal;
+    width: 80%;
+    height: 10%;
+   
+  }
+  .grade-a {
+    color: rgb(8, 234, 64);
+  }
+  
+  .grade-b {
+    color: blue;
+  }
+  
+  .grade-c {
+    color: orange;
+  }
+  
+  .grade-d {
+    color: brown;
+  }
+  
+  .grade-f {
+    color: red;
+  }
+  
