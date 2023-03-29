@@ -5,6 +5,23 @@ const calculate = () => {
     let chem = document.getElementById('chem').value;
     let comp = document.getElementById('comp').value;
 
+     if (eng === '') {
+        eng = 0;
+    }
+    if (mat === '') {
+        mat = 0;
+    }
+    if (phy === '') {
+        phy = 0;
+    }
+    if (chem === '') {
+        chem = 0;
+    }
+    if (comp === '') {
+        comp = 0;
+    }
+    
+    
     if (eng < 0 || eng > 100) {
         alert("Please enter marks in range of 100")
     }
